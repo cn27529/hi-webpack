@@ -65,9 +65,19 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+//require("./style.css");
+document.write("enter.js is works.");
+document.write(__webpack_require__(1));
+
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-document.write("It works.");
+module.exports = "It works from content.js.";
 
 /***/ })
 /******/ ]);
