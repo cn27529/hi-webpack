@@ -1,0 +1,22 @@
+{
+  "name": "hi-webpack",
+  "version": "1.0.0",
+  "description": "hello webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn27529/hi-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cn27529/hi-webpack/issues"
+  },
+  "homepage": "https://github.com/cn27529/hi-webpack#readme",  
+  "dependencies": {
+    "live-server-https": "0.0.2"
+  }
+}
